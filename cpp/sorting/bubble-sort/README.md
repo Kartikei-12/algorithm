@@ -1,5 +1,5 @@
 
-# Bubbl Sort
+# Bubble Sort
 
 ### Comments:
 
