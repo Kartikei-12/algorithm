@@ -9,9 +9,3 @@
 4. Has worst case time complexity of O(n*log(n))
 5. For usage see main.cpp in same directory.
 6. Link to [geeksforgeeks](https://www.geeksforgeeks.org/merge-sort/)
-
-### Merge Sort Code
-
-    ```C++
-
-    ```
