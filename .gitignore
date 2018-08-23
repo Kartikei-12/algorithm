@@ -1,4 +1,7 @@
 .vscode
 *.exe
 *.txt
-*.py
+
+#Some extra files in same directory
+GoogleAuth.py
+test.py
