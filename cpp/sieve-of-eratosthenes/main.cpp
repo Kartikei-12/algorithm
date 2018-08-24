@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::vector<int > primeList = My_namespace::getSieveOfEratosthenes(40);
+    std::vector<int > primeList = My_namespace::getSieveOfEratosthenes(140);
     std::cout<<"Result:"<<std::endl;
     
     for(auto& i:primeList)

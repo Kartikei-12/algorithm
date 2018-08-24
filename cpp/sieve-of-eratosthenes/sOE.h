@@ -4,7 +4,7 @@ namespace My_namespace
     //Sieve Of Eratosthenes O(n*log(log(n)))
     std::vector<int> getSieveOfEratosthenes(int64_t max, int64_t min=3)
     {
-        if(min&2)
+        if(!(min&2))
             ++min;
         std::vector<bool> primes(max, true);
         int64_t sz = primes.size();
@@ -15,7 +15,7 @@ namespace My_namespace
                     primes[j] = false;
         
         std::vector<int> ret;
-        ret.reserve(primes.size());
+        ret.reserve(primes.size()/2);
         ret.push_back(2);
 
         for(int i=min; i<sz; i+=2)
